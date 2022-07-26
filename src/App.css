@@ -1,0 +1,225 @@
+.App {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 15px;
+  margin: 0 auto;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  position: relative;
+  width: 350px;
+}
+
+.beginning .banner {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.beginning h2.title {
+  display: inline-block;
+  font-size: 2rem;
+  text-align: right;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 2.9rem;
+  padding-top: 50px;
+  margin-left: 30px;
+  text-align: left;
+}
+
+p.title {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px 0 10px;
+  margin: 0;
+}
+
+.beginning input {
+  width: 270px;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  font-size: 19px;
+  color: grey;
+  box-shadow: -10px -10px 15px rgb(58 58 58 / 9%),
+    10px 10px 15px rgb(66 66 66 / 35%);
+  transition: 0.5s;
+  padding: 10px 55px 10px 15px;
+  height: 30px;
+}
+
+.fa-solid,
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-size: 20px;
+}
+
+.beginning button {
+  position: absolute;
+
+  right: 0%;
+
+  height: 52px;
+  width: 52px;
+  border-radius: 30px;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  background: #40ff2f;
+  color: #fff;
+  z-index: 1;
+}
+
+.beginning img {
+  width: 120px;
+}
+
+img {
+  border-style: none;
+}
+
+.pokeball-background {
+  animation: rotate 3s linear infinite;
+  transform-origin: 50% 50%;
+}
+.pokeball-background {
+  /* background-image: url(https://mypokedex101.netlify.app/static/media/pokeball.81cfacf9.png); */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8PZYxaXpYcHGwqTh1ZtiLJX6JAmqUTefNtA&usqp=CAU);
+
+  position: fixed;
+  -webkit-filter: brightness(200%);
+  filter: brightness(200%);
+  z-index: -1;
+  right: -90px;
+  top: -40px;
+  background-size: cover;
+  height: 350px;
+  width: 350px;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+p.title.pokedex {
+  text-align: left;
+  padding: 10px 0 40px 30px;
+  font-size: 1.1rem;
+}
+
+p.title {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+  padding: 20px 0 10px;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1em;
+  line-height: 1.4285em;
+}
+
+select {
+  width: 100%;
+  max-width: 400px;
+  height: 60px;
+  border-radius: 30px;
+  border: 0;
+  outline: none;
+  font-size: 19px;
+  padding-left: 20px;
+  color: grey;
+  box-shadow: -10px -10px 15px rgb(58 58 58 / 9%),
+    10px 10px 15px rgb(66 66 66 / 35%);
+  transition: 0.5s;
+  margin: 30px 0;
+}
+
+.father {
+  max-width: 200px;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+  height: 100%;
+  text-shadow: 0 0 1.4px #000;
+  background-color: #40ff2f;
+}
+
+.card-1 {
+  /* width: 60%;
+  height: 100%; */
+  padding-left: 10px;
+  font-size: 0.9rem;
+  width: 100%;
+}
+.card-2 {
+  height: 100%;
+
+  align-content: flex-end;
+  align-self: flex-end;
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-2 img {
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.cards {
+  background: hsla(0, 0%, 100%, 0.2);
+  margin-bottom: 3px;
+  padding: 4px 10px;
+  border-radius: 13px;
+  display: inline-block;
+}
+
+element.style {
+  background: rgb(72, 208, 176);
+}
+.cards,
+.car,
+.cards:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+@media (min-width: 576px) {
+  .container-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
