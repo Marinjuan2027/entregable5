@@ -32,7 +32,7 @@ const UserInput = () => {
           alt=""
         /> */}
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnlixvv-dwEd_jZcmYIKxGoK6JUmmdULyVw&usqp=CAU"
+          src="https://images.wikidexcdn.net/mwuploads/esssbwiki/thumb/c/c0/latest/20210725170725/Entrenador_Pok%C3%A9mon_RojoFuego_y_VerdeHoja.png/1200px-Entrenador_Pok%C3%A9mon_RojoFuego_y_VerdeHoja.png"
           alt=""
         />
       </div>
