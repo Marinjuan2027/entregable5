@@ -2,6 +2,23 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router";
 
+// const colors = [
+//   "#845EC2",
+//   "#D65DB1",
+//   "#FF6F91",
+//   "#FF9671",
+//   "#FFC75F",
+//   "#F9F871",
+//   "#548A66",
+//   "#275F69",
+//   "#2F4858",
+//   "#C2A45E",
+// ];
+// const ramdonColorIndex = Math.floor(Math.random() * colors.length);
+// const color = colors[ramdonColorIndex];
+// document.body.style = `background: ${color}`;
+// const appBack = { backgroundColor: color };
+
 const CharacterItem = ({ characterUrl }) => {
   const [character, setCharacter] = useState({});
 

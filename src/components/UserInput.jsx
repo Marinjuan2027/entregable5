@@ -27,8 +27,12 @@ const UserInput = () => {
       <div className="pokeball-background"></div>
       <div className="banner">
         <h1 className="title">Hello trainer!</h1>
-        <img
+        {/* <img
           src="https://www.seekpng.com/png/full/201-2011786_red-by-xous-54-red-pokemon-trainer-png.png"
+          alt=""
+        /> */}
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnlixvv-dwEd_jZcmYIKxGoK6JUmmdULyVw&usqp=CAU"
           alt=""
         />
       </div>
