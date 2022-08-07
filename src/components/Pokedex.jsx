@@ -31,7 +31,6 @@ const Pokedex = () => {
   };
 
   const filterLocation = (e) => {
-    // alert("se selecciono una ubicacion" + e.target.value);
     axios.get(e.target.value).then((res) => setCharacters(res.data.pokemon));
   };
   console.log(characters);
